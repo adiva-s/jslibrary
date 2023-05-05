@@ -48,20 +48,20 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 a{
     text-decoration: none;
-    color: blue;
+    color:  #0070c9;
 }
 
 a:hover{
-    color: red;
+    color: #488edc;
 }
 
 .summary{
-    width: 500px;
+    width: 700px;
     font-size: 20px;
     margin-top: 5vh;
     margin-left: auto;
@@ -112,3 +112,4 @@ a:hover{
 #escape-room{
     height: 400px;
 }
+

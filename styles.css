@@ -1,7 +1,12 @@
 *{
-    font-family: monospace;
+    
     text-align: center;
 }
+
+body{
+    font-family: monospace;
+}
+    
 
 .thumb {
     text-align: center;
@@ -9,34 +14,37 @@
     height: 267px;
     display: inline-block;
     padding: 100px 100px;
-  }
+}
   
-  img {
+img {
     padding:10px;
-  }
+}
   
-  .fade {
+.fade {
     animation-name: fade;
     animation-duration: 2s;
-  }
+}
   
-  @keyframes fade {
+@keyframes fade {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
+}
 
 h1{
     font-size: 70px;
     margin-top: 30px;
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 5px;
 }
 
 h2{
-    margin-top: -50px;
+    margin-top: -70px;
     font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h3{
@@ -60,7 +68,47 @@ a:hover{
     margin-right: auto;
 }
 
-#truebeauty{
-    height: 1000px;
+#batman-wayne-family-adventures{
+    height: 400px;
+}
 
+#cursed-princess-club{
+    height: 425px;
+}
+
+#adventures-of-god{
+    height: 400px;
+}
+
+#truebeauty{
+    height: 350px;
+
+}
+
+#lore-olympus{
+    height: 300px;
+}
+
+#can-i-take-it-back{
+    height: 500px;
+}
+
+#purple-hyacinth{
+    height: 400px;
+}
+
+#sweethome{
+    height: 400px;
+}
+
+#not-even-bones{
+    height: 400px;
+}
+
+#melvinas-therapy{
+    height: 400px;
+}
+
+#escape-room{
+    height: 400px;
 }

@@ -1,0 +1,66 @@
+*{
+    font-family: monospace;
+    text-align: center;
+}
+
+.thumb {
+    text-align: center;
+    width: 1000px;
+    height: 267px;
+    display: inline-block;
+    padding: 100px 100px;
+  }
+  
+  img {
+    padding:10px;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+h1{
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+h2{
+    margin-top: -50px;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+.summary{
+    width: 500px;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#truebeauty{
+    height: 1000px;
+
+}

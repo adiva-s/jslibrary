@@ -3,10 +3,37 @@
     text-align: center;
 }
 
+h4{
+    font-size: 25px;;
+}
+
 body{
     font-family: monospace;
 }
     
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    text-align: center; 
+    margin-top: -10vh;
+      
+}
+
+.title{
+    margin-bottom: -10vh;
+}
+
+.genres{
+    margin-top: -30vh;
+}
+
+.genres a, .nav a{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 .thumb {
     text-align: center;
